@@ -12,6 +12,7 @@ var hogan = require('./hogan/hogan.js');
 var dust = require('./dust/dust.js');
 var fest = require('./fest/fest.js');
 var dot = require('./dot/dot.js');
+var xtpl = require('./xtpl/xtpl.js');
 var handlebars = require('./handlebars/handlebars.js');
 var coffeekup = require('./coffeekup/coffeekup.js');
 var underscore = require('./underscore/underscore.js');
@@ -63,6 +64,7 @@ var samples = [
 	{ name : 'EJS', sample : ejs },
 	{ name : 'Underscore', sample : underscore },
 	{ name : 'Swig', sample : swig },
+	{ name : 'xtpl', sample: xtpl},
 	{ name : 'doT', sample : dot },
 	{ name : 'EJS without `with`', sample : ejsWithoutWith },
 	{ name : 'Fest', sample : fest },
